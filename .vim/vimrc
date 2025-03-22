@@ -1,0 +1,37 @@
+" Plugins manager
+
+call plug#begin()
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'tomasiser/vim-code-dark'
+call plug#end()
+
+set scrolloff=10    " show 10 extra lines at the end
+set number          " show relative line number
+set relativenumber  
+set mouse=a         " for easy scrolling
+set nobackup        " save normally set nowritebackup  
+set tabstop=2       " tab stuff
+set shiftwidth=2
+set softtabstop=2   
+set expandtab      
+set autoindent
+set clipboard=unnamedplus " system wide copy
+filetype plugin on
+
+let g:netrw_localrmdir='rm -r'
+let g:netrw_local_rm_recursive = 1
+let g:netrw_rmdir_cmd = 'rm -r'
+let g:netrw_silent = 1 
+
+" zsh prompt fix
+"autocmd VimEnter * silent exec "! echo -ne '\e[1 q'"
+"autocmd VimLeave * silent exec "! echo -ne '\e[5 q'" 
+
+" Mapping hotkeys
+nnoremap o o<Esc>
+nnoremap O O<Esc>
+
+" Themeing
+syntax on
+colorscheme codedark

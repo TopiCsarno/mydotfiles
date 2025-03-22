@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/topi'
+let g:netrw_dirhist_5='/home/topi/sparsedrive/scripts'
+let g:netrw_dirhist_4='/home/topi/sparsedrive'
+let g:netrw_dirhist_3='/home/topi'
+let g:netrw_dirhist_2='/home/topi/sparsedrive/data/lidarseg'
+let g:netrw_dirhist_1='/home/topi/sparsedrive/data'
+let g:netrw_dirhist_0='/home/topi/sparsedrive'
+let g:netrw_dirhist_9='/home/topi/sparsedrive/data/lidarseg'
+let g:netrw_dirhist_8='/home/topi/sparsedrive/data'
+let g:netrw_dirhist_7='/home/topi/sparsedrive'
